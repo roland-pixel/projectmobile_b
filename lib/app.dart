@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
       ),
       // Menetapkan halaman pertama (Home Screen)
       home: const HomeScreen(),
+      //sidhnuisadniusadh
     );
   }
 }
@@ -41,16 +42,16 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.teal, // Warna AppBar
         centerTitle: true, // Judul di tengah
       ),
-      
+
       // --- Bagian Isi Halaman (Body) ---
       body: Center(
         // Center menempatkan widget di tengah layar
-        
+
         // Column menyusun widget secara vertikal
         child: Column(
           // mainAxisAlignment mengatur penempatan widget di sumbu utama (vertikal)
           mainAxisAlignment: MainAxisAlignment.center,
-          
+
           // Children berisi daftar widget yang akan ditampilkan
           children: <Widget>[
             // Widget Teks
@@ -62,10 +63,10 @@ class HomeScreen extends StatelessWidget {
                 color: Colors.black87,
               ),
             ),
-            
+
             // Memberi jarak vertikal
             const SizedBox(height: 30),
-            
+
             // Widget Tombol (ElevatedButton)
             ElevatedButton(
               onPressed: () {
@@ -76,7 +77,8 @@ class HomeScreen extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.teal, // Warna tombol
-                padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 40, vertical: 15),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
@@ -86,10 +88,10 @@ class HomeScreen extends StatelessWidget {
                 style: TextStyle(fontSize: 16, color: Colors.white),
               ),
             ),
-            
+
             // Memberi jarak vertikal
             const SizedBox(height: 20),
-            
+
             // Contoh Padding
             Padding(
               padding: const EdgeInsets.all(16.0),
